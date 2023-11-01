@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Started with FarmConnect</title>
+  <link rel="stylesheet" type="text/css" href="get-started.css">
+</head>
+<body>
+  <header>
+    <!-- FarmConnect Logo -->
+    <div class="logo"><a href="index.html">FarmConnect</a></div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Get Started with FarmConnect</h1>
+      <h2>Empowering Farmers, One Click at a Time</h2>
+    </div>
+  </section>
+
+  <section class="signup-section">
+    <div class="container">
+      <h2>Create Your FarmConnect Account</h2>
+      <form id="signup-form">
+        <div class="form-group">
+          <label for="full-name">Full Name</label>
+          <input type="text" id="full-name" name="full-name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required minlength="8">
+        </div>
+        <div class="form-group">
+          <label for="confirm-password">Confirm Password</label>
+          <input type="password" id="confirm-password" name="confirm-password" required minlength="8">
+        </div>
+        <div class="form-group">
+          <input type="checkbox" id="terms-checkbox" required>
+          <label for="terms-checkbox">I agree to FarmConnect's <a href="terms.html" target="_blank">Terms and Conditions</a> and <a href="privacy.html" target="_blank">Privacy Policy</a>.</label>
+        </div>
+        <button type="submit" class="cta-btn">Create Your Account</button>
+      </form>
+      <p class="existing-user">Existing user? <a href="login.html">Log in here</a>.</p>
+    </div>
+  </section>
+
+  <section class="additional-info">
+    <div class="container">
+      <h2>Unlock the Power of FarmConnect</h2>
+      <p>Create your FarmConnect account and access a wide range of powerful features and resources that will enhance your farming productivity and success.</p>
+    </div>
+  </section>
+
+  <section class="newsletter-section">
+    <div class="container">
+      <h2>Subscribe to Our Newsletter</h2>
+      <p>Be the first to know about updates, exclusive offers, and the latest trends in agriculture.</p>
+      <form id="newsletter-form">
+        <div class="form-group">
+          <label for="newsletter-name">Name</label>
+          <input type="text" id="newsletter-name" name="newsletter-name" required>
+        </div>
+        <div class="form-group">
+          <label for="newsletter-email">Email Address</label>
+          <input type="email" id="newsletter-email" name="newsletter-email" required>
+        </div>
+        <button type="submit" class="cta-btn">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <!-- Copyright and navigation links go here -->
+  </footer>
+
+  <script src="get-started.js"></script>
+</body>
+</html>

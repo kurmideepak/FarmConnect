@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact FarmConnect</title>
+  <link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+<body>
+  <header>
+    <!-- FarmConnect Logo -->
+    <div class="logo"><a href="index.html">FarmConnect</a></div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Get in Touch</h1>
+      <h2>We'd Love to Hear from You</h2>
+    </div>
+  </section>
+
+  <section class="contact-form">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <!-- Contact Form -->
+      <form action="contact.php" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+      <!-- Error Handling -->
+      <div class="error-msg">
+        <!-- PHP error messages will be displayed here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Add Contact Information, Map and Location, Social Media Links, Working Hours, FAQ, and Newsletter Signup sections here -->
+
+  <footer>
+    <!-- Copyright and navigation links go here -->
+  </footer>
+</body>
+</html>

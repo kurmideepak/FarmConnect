@@ -1,0 +1,187 @@
+/* CSS styles for the Get Started page */
+
+/* Header styles */
+header {
+    background-color: #2196f3;
+    padding: 15px;
+  }
+  
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  header .logo a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    color: #2196f3;
+    margin-bottom: 20px;
+  }
+  
+  .hero h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Signup section styles */
+  .signup-section {
+    background-color: #fff;
+    padding: 40px 0;
+  }
+  
+  .signup-section h2 {
+    font-size: 30px;
+    color: #2196f3;
+    margin-bottom: 20px;
+  }
+  
+  .signup-section form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .signup-section .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .signup-section label {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .signup-section input[type="text"],
+  .signup-section input[type="email"],
+  .signup-section input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .signup-section .form-group input[type="checkbox"] {
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  .signup-section .form-group label {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .signup-section .cta-btn {
+    background-color: #2196f3;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-section .cta-btn:hover {
+    background-color: #0c87db;
+  }
+  
+  .signup-section .existing-user {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Additional information section styles */
+  .additional-info {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+  }
+  
+  .additional-info h2 {
+    font-size: 30px;
+    color: #2196f3;
+    margin-bottom: 20px;
+  }
+  
+  .additional-info p {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  /* Newsletter section styles */
+  .newsletter-section {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .newsletter-section h2 {
+    font-size: 30px;
+    color: #2196f3;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-section p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-section form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .newsletter-section .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-section label {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .newsletter-section input[type="text"],
+  .newsletter-section input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .newsletter-section .cta-btn {
+    background-color: #2196f3;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .newsletter-section .cta-btn:hover {
+    background-color: #0c87db;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #2196f3;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+  

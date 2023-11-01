@@ -1,0 +1,225 @@
+/* CSS for the Pricing page */
+
+/* Header styles */
+header {
+    background-color: #2196f3;
+    padding: 15px;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  header .logo {
+    max-height: 40px;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  /* Membership tiers section styles */
+  .membership-tiers {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .membership-tiers .plan {
+    max-width: 300px;
+    margin: 0 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .membership-tiers .plan:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .membership-tiers .plan h2 {
+    color: #2196f3;
+  }
+  
+  .membership-tiers .plan .price {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .membership-tiers .plan .description {
+    color: #888;
+    line-height: 1.5;
+  }
+  
+  .membership-tiers .cta-btn {
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .membership-tiers .cta-btn:hover {
+    background-color: #1976d2;
+  }
+  
+  /* Feature comparison table styles */
+  .feature-comparison {
+    padding: 40px 0;
+  }
+  
+  .feature-comparison table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .feature-comparison th,
+  .feature-comparison td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .feature-comparison th {
+    background-color: #f9f9f9;
+  }
+  
+  /* Free trial/demo option styles */
+  .free-trial {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .free-trial h2 {
+    color: #2196f3;
+  }
+  
+  .free-trial p {
+    color: #888;
+    line-height: 1.5;
+  }
+  
+  .free-trial .cta-btn {
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .free-trial .cta-btn:hover {
+    background-color: #1976d2;
+  }
+  
+  /* Membership benefits styles */
+  .membership-benefits {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .membership-benefits h2 {
+    color: #2196f3;
+  }
+  
+  .membership-benefits p {
+    color: #888;
+    line-height: 1.5;
+  }
+  
+  /* Testimonials styles */
+  .testimonials {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .testimonials .testimonial {
+    max-width: 300px;
+    padding: 20px;
+    margin: 0 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonials .testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .testimonials blockquote {
+    font-size: 16px;
+    font-style: italic;
+    color: #555;
+  }
+  
+  .testimonials cite {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  /* Call-to-action styles */
+  .call-to-action {
+    background-color: #2196f3;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .call-to-action h2 {
+    color: #fff;
+  }
+  
+  .call-to-action .cta-btn {
+    background-color: #fff;
+    color: #2196f3;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .call-to-action .cta-btn:hover {
+    background-color: #f9f9f9;
+    color: #1976d2;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    color: #888;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .membership-tiers {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .membership-tiers .plan {
+      margin: 20px 0;
+    }
+  
+    .feature-comparison table {
+      font-size: 14px;
+    }
+  }
+  

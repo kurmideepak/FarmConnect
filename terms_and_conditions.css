@@ -1,0 +1,87 @@
+/* Global styles and reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #2196f3;
+    padding: 10px 0;
+  }
+  
+  .logo {
+    width: 150px;
+  }
+  
+  /* Hero Section styles */
+  .hero {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .hero p {
+    color: #888;
+  }
+  
+  /* Sections common styles */
+  section {
+    padding: 40px 0;
+  }
+  
+  section h2 {
+    margin: 0;
+  }
+  
+  section p {
+    color: #333;
+  }
+  
+  /* Call-to-Action Section styles */
+  .call-to-action {
+    background-color: #2196f3;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .call-to-action .accept-checkbox {
+    margin-right: 10px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    color: #888;
+  }
+  
+  footer nav a {
+    color: #2196f3;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  }
+  

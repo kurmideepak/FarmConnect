@@ -1,0 +1,119 @@
+/* Global styles and reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #2196f3;
+    padding: 10px 0;
+  }
+  
+  /* Homepage Slideshow styles */
+  .hero {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .hero p {
+    color:black;
+  }
+  
+  /* Slideshow Container styles */
+  .slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+  }
+  
+  .slide {
+    display: none;
+  }
+  
+  .slide img {
+    width: 100%;
+  }
+  
+  .slide-content {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+  }
+  
+  .slide-content h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .slide-content p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #2196f3;
+    font-family: sans-serif;
+    text-shadow: 1px 1px dimgray;
+  }
+  
+  /* Add more custom styles as needed */
+  
+  /* Additional Slide Themes */
+  .slide-theme-1 {
+    background-color: #4CAF50;
+  }
+  
+  .slide-theme-2 {
+    background-color: #FF9800;
+  }
+  
+  .slide-theme-3 {
+    background-color: #E91E63;
+  }
+  
+  /* Additional Slide Transitions */
+  .slide-from-left {
+    animation: slideFromLeft 1s forwards;
+  }
+  
+  .slide-zoom-out {
+    animation: zoomOut 1s forwards;
+  }
+  
+  @keyframes slideFromLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes zoomOut {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(0);
+    }
+  }
+  
+  

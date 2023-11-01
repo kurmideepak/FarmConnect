@@ -1,0 +1,153 @@
+/* CSS styles for the About Us page */
+
+/* Header styles */
+header {
+    background-color: #2196f3;
+    padding: 15px;
+  }
+  
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  header .logo a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    color: #2196f3;
+    margin-bottom: 20px;
+  }
+  
+  .hero h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Vision section styles */
+  .vision {
+    background-color: #fff;
+    padding: 40px 0;
+  }
+  
+  .vision h2 {
+    font-size: 30px;
+    color: #2196f3;
+    margin-bottom: 20px;
+  }
+  
+  /* Mission section styles */
+  .mission {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+  }
+  
+  .mission h2 {
+    font-size: 30px;
+    color: #2196f3;
+    margin-bottom: 20px;
+  }
+  
+  /* Values section styles */
+  .values {
+    background-color: #fff;
+    padding: 40px 0;
+  }
+  
+  .values h2 {
+    font-size: 30px;
+    color: #2196f3;
+    margin-bottom: 20px;
+  }
+  
+  .values ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .values li {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Team section styles */
+  .team {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+  }
+  
+  .team h2 {
+    font-size: 30px;
+    color: #2196f3;
+    margin-bottom: 20px;
+  }
+  
+  /* Technology section styles */
+  .technology {
+    background-color: #fff;
+    padding: 40px 0;
+  }
+  
+  .technology h2 {
+    font-size: 30px;
+    color: #2196f3;
+    margin-bottom: 20px;
+  }
+  
+  /* Impact section styles */
+  .impact {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+  }
+  
+  .impact h2 {
+    font-size: 30px;
+    color: #2196f3;
+    margin-bottom: 20px;
+  }
+  
+  /* Future section styles */
+  .future {
+    background-color: #fff;
+    padding: 40px 0;
+  }
+  
+  .future h2 {
+    font-size: 30px;
+    color: #2196f3;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact section styles */
+  .contact {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+  }
+  
+  .contact h2 {
+    font-size: 30px;
+    color: #2196f3;
+    margin-bottom: 20px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #2196f3;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+  

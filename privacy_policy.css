@@ -1,0 +1,137 @@
+/* CSS for the Privacy Policy page */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  header .logo {
+    max-width: 150px;
+  }
+  
+  /* Introduction styles */
+  .introduction {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .introduction h1 {
+    color: #2196f3;
+  }
+  
+  /* Sections styles */
+  section {
+    padding: 40px 0;
+  }
+  
+  section h2 {
+    color: #2196f3;
+  }
+  
+  /* Call-to-Action Section styles */
+  .call-to-action {
+    background-color: #2196f3;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .call-to-action label {
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .call-to-action .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    border: 1px solid #2196f3;
+    border-radius: 5px;
+  }
+  
+  .call-to-action .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .call-to-action input[type="checkbox"] {
+    display: none;
+  }
+  
+  .call-to-action input[type="checkbox"]:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .call-to-action .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+  
+  .call-to-action .cta-btn {
+    background-color: #fff;
+    color: #2196f3;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .call-to-action .cta-btn:hover {
+    background-color: #f9f9f9;
+    color: #1976d2;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    color: #888;
+  }
+  
+  footer nav a {
+    color: #2196f3;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    section h2 {
+      font-size: 24px;
+    }
+  }
+  
